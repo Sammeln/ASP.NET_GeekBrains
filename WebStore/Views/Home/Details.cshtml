@@ -1,0 +1,50 @@
+﻿@model WebStore.Models.EmployeeViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8">
+    <link type="text/css" rel="stylesheet" href="~/Content/CSS/StyleSheet.css" />
+    <title>Details</title>
+</head>
+<body>
+    <h2>Детальная информация:</h2>
+    <table>
+        <tr>
+            <td>Id</td>
+            <td>@Model.Id</td>
+        </tr>
+        <tr>
+            <td>Фамилия</td>
+            <td>@Model.LastName</td>
+        </tr>
+        <tr>
+            <td>Имя</td>
+            <td>@Model.FirstName</td>
+        </tr>
+        <tr>
+            <td>Отчество</td>
+            <td>@Model.Patronymic</td>
+        </tr>
+        <tr>
+            <td>Возраст</td>
+            <td>@Model.Age</td>
+        </tr>
+        <tr>
+            <td>Отдел</td>
+            <td>@Model.Departament</td>
+        </tr>
+        <tr>
+            <td>Дата приема на работу</td>
+            <td>@Model.EmploymentDate</td>
+        </tr>
+    </table>
+    <br/>
+    @Html.ActionLink("Назад", "Index")
+</body>
+</html>
