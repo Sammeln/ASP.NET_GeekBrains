@@ -13264,11 +13264,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\GeekBrains\\ASP.NET_GeekBrains\\WebStore\\WebStore.csproj",
+      "projectUniqueName": "F:\\GeekBrains\\ASP.NET\\WebStore\\WebStore.csproj",
       "projectName": "WebStore",
-      "projectPath": "F:\\GeekBrains\\ASP.NET_GeekBrains\\WebStore\\WebStore.csproj",
+      "projectPath": "F:\\GeekBrains\\ASP.NET\\WebStore\\WebStore.csproj",
       "packagesPath": "C:\\Users\\KN\\.nuget\\packages\\",
-      "outputPath": "F:\\GeekBrains\\ASP.NET_GeekBrains\\WebStore\\obj\\",
+      "outputPath": "F:\\GeekBrains\\ASP.NET\\WebStore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

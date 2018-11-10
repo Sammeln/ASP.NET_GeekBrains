@@ -23,7 +23,12 @@ namespace WebStore.controllers
 
         public IActionResult Details(int id)
         {
-            return View(employees.Single(e => e.Id == id));
+            EmployeeViewModel employee = employees.FirstOrDefault(e => e.Id == id);
+            if (ReferenceEquals(employee, null))
+            {
+                return NotFound();
+            }
+            return View(employee);
         }
     }
 }
