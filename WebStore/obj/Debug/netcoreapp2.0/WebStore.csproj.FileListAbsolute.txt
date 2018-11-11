@@ -20,3 +20,14 @@ F:\GeekBrains\ASP.NET_GeekBrains\WebStore\bin\Debug\netcoreapp2.0\WebStore.runti
 F:\GeekBrains\ASP.NET_GeekBrains\WebStore\bin\Debug\netcoreapp2.0\WebStore.runtimeconfig.dev.json
 F:\GeekBrains\ASP.NET_GeekBrains\WebStore\bin\Debug\netcoreapp2.0\WebStore.dll
 F:\GeekBrains\ASP.NET_GeekBrains\WebStore\bin\Debug\netcoreapp2.0\WebStore.pdb
+F:\GeekBrains\ASP.NET\WebStore\bin\Debug\netcoreapp2.0\WebStore.deps.json
+F:\GeekBrains\ASP.NET\WebStore\bin\Debug\netcoreapp2.0\WebStore.runtimeconfig.json
+F:\GeekBrains\ASP.NET\WebStore\bin\Debug\netcoreapp2.0\WebStore.runtimeconfig.dev.json
+F:\GeekBrains\ASP.NET\WebStore\bin\Debug\netcoreapp2.0\WebStore.dll
+F:\GeekBrains\ASP.NET\WebStore\bin\Debug\netcoreapp2.0\WebStore.pdb
+F:\GeekBrains\ASP.NET\WebStore\obj\Debug\netcoreapp2.0\WebStore.csprojAssemblyReference.cache
+F:\GeekBrains\ASP.NET\WebStore\obj\Debug\netcoreapp2.0\WebStore.csproj.CoreCompileInputs.cache
+F:\GeekBrains\ASP.NET\WebStore\obj\Debug\netcoreapp2.0\WebStore.AssemblyInfoInputs.cache
+F:\GeekBrains\ASP.NET\WebStore\obj\Debug\netcoreapp2.0\WebStore.AssemblyInfo.cs
+F:\GeekBrains\ASP.NET\WebStore\obj\Debug\netcoreapp2.0\WebStore.dll
+F:\GeekBrains\ASP.NET\WebStore\obj\Debug\netcoreapp2.0\WebStore.pdb
