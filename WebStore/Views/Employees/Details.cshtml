@@ -1,20 +1,11 @@
-﻿@model WebStore.Models.EmployeeViewModel
+﻿@model EmployeeViewModel
 @{
-    Layout = null;
+    ViewBag.Title = "О сотруднике";
 }
+<div class="container">
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <meta charset="utf-8">
-    <link type="text/css" rel="stylesheet" href="~/Content/CSS/StyleSheet.css" />
-    <title>Details</title>
-</head>
-<body>
     <h2>Детальная информация:</h2>
-    <table>
+    <table class="table table-condensed">
         <tr>
             <td>Id</td>
             <td>@Model.Id</td>
@@ -40,11 +31,10 @@
             <td>@Model.Departament</td>
         </tr>
         <tr>
-            <td>Дата приема на работу</td>
+            <td>Работает с</td>
             <td>@Model.EmploymentDate</td>
         </tr>
     </table>
-    <br/>
-    @Html.ActionLink("Назад", "Index")
-</body>
-</html>
+    <br />
+    <a asp-action="Index" asp-controller="Employees">Назад к списку</a>
+</div>
