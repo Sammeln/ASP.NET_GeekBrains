@@ -1,0 +1,40 @@
+﻿@model EmployeeViewModel
+@{
+    ViewBag.Title = "О сотруднике";
+}
+<div class="container">
+
+    <h2>Детальная информация:</h2>
+    <table class="table table-condensed">
+        <tr>
+            <td>Id</td>
+            <td>@Model.Id</td>
+        </tr>
+        <tr>
+            <td>Фамилия</td>
+            <td>@Model.LastName</td>
+        </tr>
+        <tr>
+            <td>Имя</td>
+            <td>@Model.FirstName</td>
+        </tr>
+        <tr>
+            <td>Отчество</td>
+            <td>@Model.Patronymic</td>
+        </tr>
+        <tr>
+            <td>Возраст</td>
+            <td>@Model.Age</td>
+        </tr>
+        <tr>
+            <td>Отдел</td>
+            <td>@Model.Departament</td>
+        </tr>
+        <tr>
+            <td>Работает с</td>
+            <td>@Model.EmploymentDate</td>
+        </tr>
+    </table>
+    <br />
+    <a asp-action="Index" asp-controller="Employees">Назад к списку</a>
+</div>
