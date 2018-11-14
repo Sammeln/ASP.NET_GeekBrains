@@ -7,6 +7,10 @@ namespace WebStore.Models
 {
     public class EmployeeViewModel
     {
+        public EmployeeViewModel()
+        {
+
+        }
         public EmployeeViewModel(int id,string firstName, string lastName, string patronymic, string departament, DateTime dateBirth, DateTime empplymentDate)
         {
             Id = id;
