@@ -31,3 +31,6 @@ F:\GeekBrains\ASP.NET\WebStore\obj\Debug\netcoreapp2.0\WebStore.AssemblyInfoInpu
 F:\GeekBrains\ASP.NET\WebStore\obj\Debug\netcoreapp2.0\WebStore.AssemblyInfo.cs
 F:\GeekBrains\ASP.NET\WebStore\obj\Debug\netcoreapp2.0\WebStore.dll
 F:\GeekBrains\ASP.NET\WebStore\obj\Debug\netcoreapp2.0\WebStore.pdb
+F:\GeekBrains\ASP.NET\WebStore\bin\Debug\netcoreapp2.0\WebStore.Domain.dll
+F:\GeekBrains\ASP.NET\WebStore\bin\Debug\netcoreapp2.0\WebStore.Domain.pdb
+F:\GeekBrains\ASP.NET\WebStore\obj\Debug\netcoreapp2.0\WebStore.csproj.CopyComplete

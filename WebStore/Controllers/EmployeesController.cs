@@ -51,25 +51,34 @@ namespace WebStore.controllers
         [Route("edit/{id?}")]
         public IActionResult Edit(EmployeeViewModel employee)
         {
-            if (employee.Id > 0)
+            if (employee.Age < 18 || employee.Age > 65)
             {
-                var dbItem = employees.GetById(employee.Id);
-                if (ReferenceEquals(dbItem, null))
-                {
-                    return NotFound();
+                ModelState.AddModelError("Age", "Не менее 18 и не более 65 лет");
+            }
+            if (ModelState.IsValid)
+            {
 
+                if (employee.Id > 0)
+                {
+                    var dbItem = employees.GetById(employee.Id);
+                    if (ReferenceEquals(dbItem, null))
+                    {
+                        return NotFound();
+
+                    }
+                    dbItem.FirstName = employee.FirstName;
+                    dbItem.LastName = employee.LastName;
+                    dbItem.Age = employee.Age;
+                    dbItem.Patronymic = employee.Patronymic;
+                    dbItem.Departament = dbItem.Departament;
                 }
-                dbItem.FirstName = employee.FirstName;
-                dbItem.LastName = employee.LastName;
-                dbItem.Age = employee.Age;
-                dbItem.Patronymic = employee.Patronymic;
-                dbItem.Departament = dbItem.Departament;
+                else
+                {
+                    employees.AddEmployee(employee);
+                }
+                return RedirectToAction(nameof(Index));
             }
-            else
-            {
-                employees.AddEmployee(employee);
-            }
-            return RedirectToAction(nameof(Index));
+            return View(employee);
         }
         [Route("delete/{id}")]
         public IActionResult Delete(int id)

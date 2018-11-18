@@ -21,10 +21,10 @@ namespace WebStore.Infrastructure.Implementations
         {
             employees = new List<EmployeeViewModel>
             {
-                new EmployeeViewModel(1,"Иван","Иванов","Иванович","Производство",new DateTime(1989,3,25),new DateTime(2012,9,10)),
-                new EmployeeViewModel(2,"Сергей","Петров","Дмитриевич","Продажи",new DateTime(1975,5,2),new DateTime(2011,2,1)),
-                new EmployeeViewModel(3,"Владимир","Родионов","Петрович","Бухгалтерия",new DateTime(1983,10,17),new DateTime(2008,5,30)),
-                new EmployeeViewModel(4,"Дмитрий","Трофимов","Михайлович","Снабжение",new DateTime(1992,4,23),new DateTime(2005,11,26)),
+                new EmployeeViewModel{ Id = 1, FirstName =  "Иван",LastName = "Иванов",Patronymic = "Иванович",Departament = "Производство",Age = 25},
+                new EmployeeViewModel{ Id = 2, FirstName =  "Сергей",LastName = "Петров",Patronymic = "Дмитриевич",Departament = "Продажи",Age = 32},
+                new EmployeeViewModel{ Id = 3, FirstName =  "Владимир",LastName = "Родионов",Patronymic = "Петрович",Departament = "Бухгалтерия",Age = 22},
+                new EmployeeViewModel{ Id = 4, FirstName =  "Дмитрий",LastName = "Трофимов",Patronymic = "Михайлович",Departament = "Снабжение",Age = 43}
             };
         }
 

@@ -6,25 +6,25 @@
     <h2>Сотрудники</h2>
     <a asp-action="Edit" asp-controller="Employees" class="btn btn-success">Добавить</a>
     <hr/>
-    <table class="table table-bordered">
+    <table class="table table-condensed">
         <tr>
+            <td></td>
             <td>Id</td>
             <td>Имя</td>
             <td>Фамилия</td>
             <td>Возраст</td>
             <td></td>
             <td></td>
-            <td></td>
         </tr>
         @foreach (var item in Model)
         {
         <tr>
+            <td><a asp-action="Edit" asp-route-id="@item.Id"><i class="fa fa-edit"></i></a></td>
             <td>@item.Id</td>
             <td>@item.FirstName</td>
             <td>@item.LastName</td>
             <td>@item.Age</td>
             <td><a asp-action="Details" asp-route-id="@item.Id">Подробнее</a></td>
-            <td><a asp-action="Edit" asp-route-id="@item.Id"><i class="fa fa-edit"></i></a></td>
             <td><a asp-action="Delete" asp-route-id="@item.Id"><i class="fa fa-cut"></i></a></td>
 
         </tr>
