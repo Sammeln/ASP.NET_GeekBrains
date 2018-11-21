@@ -200,6 +200,13 @@ namespace WebStore.Infrastructure.Implementations
         {
             return products;
         }
+
+        public int GetProductsCount(int brandId)
+        {
+            return products.Count(p => p.BrandId.Equals(brandId));
+
+        }
+
         public IEnumerable<Product> GetProducts(ProductFilter filter)
         {
             var products = this.products;
