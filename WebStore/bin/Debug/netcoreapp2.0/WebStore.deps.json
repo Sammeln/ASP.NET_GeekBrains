@@ -26,7 +26,8 @@
           "Microsoft.AspNetCore.All": "2.0.8",
           "Microsoft.NETCore.App": "2.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.3",
-          "WebStore.Domain": "1.0.0"
+          "WebStore.DAL": "1.0.0",
+          "WebStore.DomainNew": "1.0.0"
         },
         "runtime": {
           "WebStore.dll": {}
@@ -4054,12 +4055,28 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
-      "WebStore.Domain/1.0.0": {
+      "WebStore.DAL/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.0.3",
+          "Microsoft.EntityFrameworkCore.Tools": "2.0.3",
+          "WebStore.DomainNew": "1.0.0"
+        },
         "runtime": {
-          "WebStore.Domain.dll": {}
+          "WebStore.DAL.dll": {}
         },
         "compile": {
-          "WebStore.Domain.dll": {}
+          "WebStore.DAL.dll": {}
+        }
+      },
+      "WebStore.DomainNew/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.0.3"
+        },
+        "runtime": {
+          "WebStore.DomainNew.dll": {}
+        },
+        "compile": {
+          "WebStore.DomainNew.dll": {}
         }
       },
       "Microsoft.NETCore.App/2.0.0": {
@@ -6374,7 +6391,12 @@
       "path": "windowsazure.storage/8.1.4",
       "hashPath": "windowsazure.storage.8.1.4.nupkg.sha512"
     },
-    "WebStore.Domain/1.0.0": {
+    "WebStore.DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WebStore.DomainNew/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

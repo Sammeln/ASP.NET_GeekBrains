@@ -30,7 +30,7 @@ namespace WebStore.ViewComponents
                 Id = b.Id,
                 Name = b.Name,
                 Order = b.Order,
-                ProductCount = productData.GetProducts().Count(p => p.BrandId.Equals(b.Id))
+                ProductCount = productData.GetProductsCount(b.Id)
             }).OrderBy(b => b.Order).ToList();
             return brandsList;
         }
