@@ -4070,6 +4070,8 @@
       },
       "WebStore.DomainNew/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Identity": "2.0.3",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.0.3"
         },
         "runtime": {
