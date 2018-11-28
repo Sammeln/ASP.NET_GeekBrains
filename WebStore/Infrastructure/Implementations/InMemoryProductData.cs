@@ -221,5 +221,9 @@ namespace WebStore.Infrastructure.Implementations
             return products;
         }
 
+        public Product GetProductByID(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

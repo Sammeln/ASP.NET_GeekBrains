@@ -13333,11 +13333,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\GeekBrains\\ASP.NET\\WebStore\\WebStore.csproj",
+      "projectUniqueName": "D:\\Git\\WebStore\\WebStore.csproj",
       "projectName": "WebStore",
-      "projectPath": "F:\\GeekBrains\\ASP.NET\\WebStore\\WebStore.csproj",
+      "projectPath": "D:\\Git\\WebStore\\WebStore.csproj",
       "packagesPath": "C:\\Users\\KN\\.nuget\\packages\\",
-      "outputPath": "F:\\GeekBrains\\ASP.NET\\WebStore\\obj\\",
+      "outputPath": "D:\\Git\\WebStore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13356,11 +13356,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "F:\\GeekBrains\\ASP.NET\\WebStore.DAL\\WebStore.DAL.csproj": {
-              "projectPath": "F:\\GeekBrains\\ASP.NET\\WebStore.DAL\\WebStore.DAL.csproj"
+            "D:\\Git\\WebStore.DAL\\WebStore.DAL.csproj": {
+              "projectPath": "D:\\Git\\WebStore.DAL\\WebStore.DAL.csproj"
             },
-            "F:\\GeekBrains\\ASP.NET\\WebStore.DomainNew\\WebStore.DomainNew.csproj": {
-              "projectPath": "F:\\GeekBrains\\ASP.NET\\WebStore.DomainNew\\WebStore.DomainNew.csproj"
+            "D:\\Git\\WebStore.DomainNew\\WebStore.DomainNew.csproj": {
+              "projectPath": "D:\\Git\\WebStore.DomainNew\\WebStore.DomainNew.csproj"
             }
           }
         }

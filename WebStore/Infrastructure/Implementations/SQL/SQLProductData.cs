@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -50,6 +51,10 @@ namespace WebStore.Infrastructure.Implementations.SQL
         public int GetProductsCount(int brandId)
         {
             return context.Products.Count(p => p.BrandId.Equals(brandId));
+        }
+        public Product GetProductByID(int id)
+        {
+            return context.Products.Include("Brand").Include("Section").FirstOrDefault(p => p.Id.Equals(id));
         }
     }
 }

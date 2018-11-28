@@ -10,3 +10,15 @@ F:\GeekBrains\ASP.NET\WebStore.DAL\obj\Debug\netcoreapp2.0\WebStore.DAL.csprojAs
 F:\GeekBrains\ASP.NET\WebStore.DAL\obj\Debug\netcoreapp2.0\WebStore.DAL.csproj.CopyComplete
 F:\GeekBrains\ASP.NET\WebStore.DAL\obj\Debug\netcoreapp2.0\WebStore.DAL.dll
 F:\GeekBrains\ASP.NET\WebStore.DAL\obj\Debug\netcoreapp2.0\WebStore.DAL.pdb
+D:\Git\WebStore.DAL\bin\Debug\netcoreapp2.0\WebStore.DAL.deps.json
+D:\Git\WebStore.DAL\bin\Debug\netcoreapp2.0\WebStore.DAL.dll
+D:\Git\WebStore.DAL\bin\Debug\netcoreapp2.0\WebStore.DAL.pdb
+D:\Git\WebStore.DAL\bin\Debug\netcoreapp2.0\WebStore.DomainNew.dll
+D:\Git\WebStore.DAL\bin\Debug\netcoreapp2.0\WebStore.DomainNew.pdb
+D:\Git\WebStore.DAL\obj\Debug\netcoreapp2.0\WebStore.DAL.csprojAssemblyReference.cache
+D:\Git\WebStore.DAL\obj\Debug\netcoreapp2.0\WebStore.DAL.csproj.CoreCompileInputs.cache
+D:\Git\WebStore.DAL\obj\Debug\netcoreapp2.0\WebStore.DAL.AssemblyInfoInputs.cache
+D:\Git\WebStore.DAL\obj\Debug\netcoreapp2.0\WebStore.DAL.AssemblyInfo.cs
+D:\Git\WebStore.DAL\obj\Debug\netcoreapp2.0\WebStore.DAL.csproj.CopyComplete
+D:\Git\WebStore.DAL\obj\Debug\netcoreapp2.0\WebStore.DAL.dll
+D:\Git\WebStore.DAL\obj\Debug\netcoreapp2.0\WebStore.DAL.pdb

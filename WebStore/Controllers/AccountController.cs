@@ -29,24 +29,23 @@ namespace WebStore.Controllers
         [HttpPost, ValidateAntiForgeryToken]
         public async Task<IActionResult> Register(RegisterUserViewModel model)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid) return View(model);
+
+            var user = new User { UserName = model.UserName, Email = model.Email };   
+            var createResult = await userManager.CreateAsync(user, model.Password);
+            if (createResult.Succeeded)
             {
-                var user = new User { UserName = model.UserName };
-                var createResult = await userManager.CreateAsync(user, model.Password);
-                if (createResult.Succeeded)
-                {
-                    await signManager.SignInAsync(user, false);
-                    return RedirectToAction("Index", "Home");
-                }
-                else
-                {
-                    foreach (var identityError in createResult.Errors)
-                    {
-                        ModelState.AddModelError("", identityError.Description);
-                    }
-                }
+                await signManager.SignInAsync(user, false);
+                await userManager.AddToRoleAsync(user, "User");
+                return RedirectToAction("Index", "Home");
+            }
+
+            foreach (var identityError in createResult.Errors)
+            {
+                ModelState.AddModelError("", identityError.Description);
             }
             return View(model);
+
         }
 
         [HttpGet]

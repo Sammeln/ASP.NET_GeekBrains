@@ -32,9 +32,21 @@ namespace WebStore.Controllers
             };
             return View(catalog);
         }
-        public IActionResult ProductDetails()
+        public IActionResult ProductDetails(int id)
         {
-            return View();
+            var product = productData.GetProductByID(id);
+            if (product == null)
+            {
+                return NotFound();
+            }
+            return View(new ProductViewModel
+            {
+                Id = product.Id,
+                ImageUrl = product.ImageUrl,
+                Name = product.Name,
+                Order = product.Order,
+                Price = product.Price,
+            });
         }
     }
 }

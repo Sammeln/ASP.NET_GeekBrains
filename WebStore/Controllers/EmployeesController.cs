@@ -33,6 +33,7 @@ namespace WebStore.controllers
             return View(employee);
         }
         [Route("edit/{id?}")]
+        [Authorize(Roles = "Administrator")]
         public IActionResult Edit(int? id)
         {
             EmployeeViewModel employee;
@@ -52,6 +53,7 @@ namespace WebStore.controllers
         }
         [HttpPost]
         [Route("edit/{id?}")]
+        [Authorize(Roles = "Administrator")]
         public IActionResult Edit(EmployeeViewModel employee)
         {
             if (employee.Age < 18 || employee.Age > 65)
@@ -84,6 +86,7 @@ namespace WebStore.controllers
             return View(employee);
         }
         [Route("delete/{id}")]
+        [Authorize(Roles = "Administrator")]
         public IActionResult Delete(int id)
         {
             employees.DeleteEmployee(id);
