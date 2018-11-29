@@ -57,6 +57,10 @@ namespace WebStore
                 options.AccessDeniedPath = "/Account/AccessDenied";
                 options.SlidingExpiration = true;
             });
+
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddTransient<ICartService, CookieCartService>();
+
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)

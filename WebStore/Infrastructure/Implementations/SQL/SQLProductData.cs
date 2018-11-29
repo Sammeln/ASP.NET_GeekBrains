@@ -45,7 +45,7 @@ namespace WebStore.Infrastructure.Implementations.SQL
 
         public IEnumerable<Product> GetProducts()
         {
-            return context.Products.ToList();
+            return context.Products.Include(p => p.Brand).Include(p => p.Section).AsQueryable();
         }
 
         public int GetProductsCount(int brandId)
@@ -54,7 +54,7 @@ namespace WebStore.Infrastructure.Implementations.SQL
         }
         public Product GetProductByID(int id)
         {
-            return context.Products.Include("Brand").Include("Section").FirstOrDefault(p => p.Id.Equals(id));
+            return context.Products.Include(p => p.Brand).Include(p => p.Section).FirstOrDefault(p => p.Id.Equals(id));
         }
     }
 }
