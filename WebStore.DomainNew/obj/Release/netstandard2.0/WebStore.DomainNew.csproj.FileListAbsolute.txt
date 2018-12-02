@@ -1,0 +1,9 @@
+F:\GeekBrains\ASP.NET\WebStore.DomainNew\bin\Release\netstandard2.0\WebStore.DomainNew.deps.json
+F:\GeekBrains\ASP.NET\WebStore.DomainNew\bin\Release\netstandard2.0\WebStore.DomainNew.dll
+F:\GeekBrains\ASP.NET\WebStore.DomainNew\bin\Release\netstandard2.0\WebStore.DomainNew.pdb
+F:\GeekBrains\ASP.NET\WebStore.DomainNew\obj\Release\netstandard2.0\WebStore.DomainNew.csprojAssemblyReference.cache
+F:\GeekBrains\ASP.NET\WebStore.DomainNew\obj\Release\netstandard2.0\WebStore.DomainNew.csproj.CoreCompileInputs.cache
+F:\GeekBrains\ASP.NET\WebStore.DomainNew\obj\Release\netstandard2.0\WebStore.DomainNew.AssemblyInfoInputs.cache
+F:\GeekBrains\ASP.NET\WebStore.DomainNew\obj\Release\netstandard2.0\WebStore.DomainNew.AssemblyInfo.cs
+F:\GeekBrains\ASP.NET\WebStore.DomainNew\obj\Release\netstandard2.0\WebStore.DomainNew.dll
+F:\GeekBrains\ASP.NET\WebStore.DomainNew\obj\Release\netstandard2.0\WebStore.DomainNew.pdb

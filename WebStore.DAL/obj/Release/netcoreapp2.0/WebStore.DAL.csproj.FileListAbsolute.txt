@@ -1,0 +1,12 @@
+F:\GeekBrains\ASP.NET\WebStore.DAL\bin\Release\netcoreapp2.0\WebStore.DAL.deps.json
+F:\GeekBrains\ASP.NET\WebStore.DAL\bin\Release\netcoreapp2.0\WebStore.DAL.dll
+F:\GeekBrains\ASP.NET\WebStore.DAL\bin\Release\netcoreapp2.0\WebStore.DAL.pdb
+F:\GeekBrains\ASP.NET\WebStore.DAL\bin\Release\netcoreapp2.0\WebStore.DomainNew.dll
+F:\GeekBrains\ASP.NET\WebStore.DAL\bin\Release\netcoreapp2.0\WebStore.DomainNew.pdb
+F:\GeekBrains\ASP.NET\WebStore.DAL\obj\Release\netcoreapp2.0\WebStore.DAL.csprojAssemblyReference.cache
+F:\GeekBrains\ASP.NET\WebStore.DAL\obj\Release\netcoreapp2.0\WebStore.DAL.csproj.CoreCompileInputs.cache
+F:\GeekBrains\ASP.NET\WebStore.DAL\obj\Release\netcoreapp2.0\WebStore.DAL.AssemblyInfoInputs.cache
+F:\GeekBrains\ASP.NET\WebStore.DAL\obj\Release\netcoreapp2.0\WebStore.DAL.AssemblyInfo.cs
+F:\GeekBrains\ASP.NET\WebStore.DAL\obj\Release\netcoreapp2.0\WebStore.DAL.csproj.CopyComplete
+F:\GeekBrains\ASP.NET\WebStore.DAL\obj\Release\netcoreapp2.0\WebStore.DAL.dll
+F:\GeekBrains\ASP.NET\WebStore.DAL\obj\Release\netcoreapp2.0\WebStore.DAL.pdb

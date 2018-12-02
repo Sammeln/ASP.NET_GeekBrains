@@ -31,7 +31,9 @@ namespace WebStore
             services.AddMvc();
 
             services.AddSingleton<IEmployeesData, InMemoryEmployeesData>();
-            services.AddScoped<IProductData, SQLProductData>();
+            services.AddTransient<IProductData, SQLProductData>();
+            services.AddTransient<IOrdersService, SqlOrderService>();
+
 
             services.AddDbContext<WebStoreContext>(options => options.UseSqlServer(
                 Configuration.GetConnectionString("DefaultConnection")));
@@ -76,7 +78,8 @@ namespace WebStore
             {
                 routes.MapRoute(
                     name: "areas",
-                    template: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+                    template: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+                );
                 routes.MapRoute(
                      name: "default",
                      template: "{controller=Home}/{action=Index}/{id?}");
